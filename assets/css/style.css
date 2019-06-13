@@ -6,36 +6,73 @@
   
   
   .container {
-    margin: 0 auto;
+    background-image: url('assets/images/light-grey-terrazzo.png');
     margin-top: 50px;
-    width: 1000px;
+    width: 500px;
     display: block;
     box-sizing: border-box;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Times, serif;
     font-size: 1.25em;
   }
   
   header {
-    background-color: #1D88E5;
-    height: 100px;
-    padding: 10px;
-    border: 1px solid white;
+    background-color: orange;
+    color: white;
+    font-size: 24pt;
+    height: 75px;
+    width: 300px;
+    padding: 15px 20px 10px 15px;
   }
   
-  aside {
-    background-color: #1D88E5;
+  #instructions {
+    background-color: peachpuff;
+    color: green; 
     width: 300px;
     height: 400px;
-    padding: 10px;
-    border: 1px solid white;
+    padding: 15px 20px 10px 15px;
   }
   
-  main {
-    background-color: #1D88E5;
-    width: 700px;
-    height: 400px;
-    padding: 10px;
+  #randomDisplay {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    padding: 15px 20px 10px 15px;
     border: 1px solid white;
   }
     
+#record {
+    background-color: rgb(96, 204, 236); 
+    padding: 15px 20px 10px 15px;
+    width: 100px;
+    float: left;
+    border: solid 1px #ddd
+}
+
+#crystals {
+    margin-top: 15px;
+    margin-bottom: 26px;
+ }
+
+ .crystal-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  
+#totalScore {
+    width: 100px;
+    height: 150px;
+    text-align: left;
+    padding: 15px 20px 10px 15px;
+    background-color: rgb(89, 201, 123);
+    color: white;
+}
+
+#score {
+background-color: rgb(9, 104, 38);
+width: 100px;
+padding: 15px 20px 10px 15px;
+height: 75px;
+color: white;
+}
