@@ -1,78 +1,78 @@
 
-* {
-    box-sizing: border-box;
-    text-align: center;
+
+  
+  body{
+    background-image: url(../images/light-grey-terrazzo.png);
   }
   
   
-  .container {
-    background-image: url('assets/images/light-grey-terrazzo.png');
-    margin-top: 50px;
-    width: 500px;
-    display: block;
-    box-sizing: border-box;
-    color: white;
-    font-family: Times, serif;
-    font-size: 1.25em;
-  }
-  
-  header {
+  #title {
     background-color: orange;
+    text-align: center;
     color: white;
+    font-family: cursive;
     font-size: 24pt;
     height: 75px;
-    width: 300px;
-    padding: 15px 20px 10px 15px;
+    padding: 20px;
   }
   
   #instructions {
     background-color: peachpuff;
     color: green; 
-    width: 300px;
-    height: 400px;
-    padding: 15px 20px 10px 15px;
+    text-align: center;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid white;
   }
   
-  #randomDisplay {
-    background-color: green;
-    width: 100px;
-    height: 100px;
-    padding: 15px 20px 10px 15px;
-    border: 1px solid white;
+  #randomNumber {
+    background-color: rgb(147, 213, 252);
+    height: 150px;
+    border: 3px solid rgb(58, 37, 247);
   }
     
-#record {
-    background-color: rgb(96, 204, 236); 
-    padding: 15px 20px 10px 15px;
-    width: 100px;
-    float: left;
-    border: solid 1px #ddd
+#wins {
+    background-color: rgb(159, 233, 99); 
+    height: 70px;
+    border: 3px solid white;
 }
 
-#crystals {
-    margin-top: 15px;
-    margin-bottom: 26px;
- }
-
- .crystal-image {
-    width: 300px;
-    height: 300px;
-  }
-
-  
-#totalScore {
-    width: 100px;
-    height: 150px;
-    text-align: left;
-    padding: 15px 20px 10px 15px;
-    background-color: rgb(89, 201, 123);
-    color: white;
+#losses {
+  background-color: rgb(202, 202, 185); 
+  height: 70px;
+  border: 3px solid white;
 }
 
 #score {
-background-color: rgb(9, 104, 38);
-width: 100px;
-padding: 15px 20px 10px 15px;
-height: 75px;
-color: white;
+background-color: white;
+padding: 10px;
+height: 150px;
+color: blue;
+border: 3px solid rgb(230, 166, 166);
 }
+
+#crystals{
+  margin-left: 25%;
+}
+
+#ruby {
+  width: 150px;
+  border: 10px solid tan;
+}
+
+#green {
+  width: 150px;
+  border: 10px solid tan;
+}
+
+#pink {
+  width: 150px;
+  border: 10px solid tan;
+}
+
+#blue {
+  width: 150px;
+  border: 10px solid tan;
+}
+
+

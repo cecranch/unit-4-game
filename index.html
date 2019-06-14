@@ -1,70 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystals Collector</title>
 
-     <!-- Link to the jQuery library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Link to CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
-    
-    <!-- Added a link to Bootstrap-->
+
+    <!-- Link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 
-    <!-- Link to javascript -->
-    <script src="javascript/game.js"></script>
 
 </head>
+
 <body>
+    <div class="container">
+        <div class="row" id="title">
+                <h1>Crystals Collector</h1>
+        </div>
 
-       
-        <header>Crystals Collector!</header>
-
-        <section id="instructions">
-                <p>You will be given a random number at the start of the game. There are four crystals below.
-                    By clicking on a crystal you will add a specific amount of points to your total score.</p>
-                <p> You win the game by matching your total score to the random number. You lose the game if
-                    your total score goes above the random number.</p>
-                <p>The value of each crystal is hidden from you until you click on it.</p>
-                <p>Each time when the game starts, the game will change the value of the crystals.
-                </p>
-         </section>
-
-         <section id= "randomDisplay">
-                <!-- link to java random number function and text here -->
-
-         </section>
-
-         <section id= "record">
-            Wins: 
-            <p>Losses: </p>
-
-         </section>
+                <div class="row" id="instructions">
+                    <p>You will be given a random number at the start of the game. There are four crystals below.
+                        By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                    <p> You win the game by matching your total score to the random number. You lose the game if
+                        your total score goes above the random number.</p>
+                    <p>The value of each crystal is hidden from you until you click on it. Each time  the game starts, the game will change the value of the crystals.</p>
+                </div>
 
 
-         <div id="crystals"></div>
-             <!-- do these need to be buttons, or use on-click function?
-                <img src="green.png" alt="GreenCrystal" width="20px" height="20px">
-                <img src="assets/css/images/ruby.png" alt="RubyCrystal" width="20px" height="20px">
-                <img src="assets/css/images/pink.png" alt="PinkCrystal" width="20px" height="20px">
-                <img src="assets/css/images/blue.png" alt="BlueCrystal" width="20px" height="20px">
-     -->
 
-         <section id= "totalScore">
-                <p>Your total score is:  </p>
-    
-             </section>
+            <div class="row" id="crystals">
+                <div id="ruby">
+                    <img src="assets/images/ruby.png" alt="Ruby" class="img-thumbnail">
+                </div>
+                <div id="green">
+                    <img src="assets/images/green.png" alt="Green" class="img-thumbnail">
+                </div>
+                <div id="pink">
+                    <img src="assets/images/pink.png" alt="Pink" class="img-thumbnail">
+                </div>
+                <div id="blue">
+                    <img src="assets/images/blue.png" alt="Blue" class="img-thumbnail">
+                </div>
+            </div>
 
-             <section id= "score">
-                <text>0</text>
-            </section>
+
+            <div class="row">
+                    <div class="col-4" id="randomNumber">Random Number Here</div>    
+                    <div class="col-4" id="score">Score: <span></span></div>
+                    <div class="col-4">   
+                    <div class="row-fluid">
+                            <div class="span 2" id="wins">Wins: </div>
+                            <div class="span 2" id="losses">Losses: </div>
+                         </div>
+
+                     </div>
+            </div>
+
+            </div>
+
+
+    </div>
+
+
+
+    <!-- Link to the jQuery library -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+    <script type="text/javascript" src="../unit-4-game/assets/javascript/game.js"></script>
 
 
 </body>
+
 </html>
