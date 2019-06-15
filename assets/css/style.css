@@ -3,6 +3,9 @@
   
   body{
     background-image: url(../images/light-grey-terrazzo.png);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
   }
   
   
@@ -10,7 +13,7 @@
     background-color: orange;
     text-align: center;
     color: white;
-    font-family: cursive;
+    font-family:  "Brush Script MT", cursive;
     font-size: 24pt;
     height: 75px;
     padding: 20px;
@@ -19,6 +22,7 @@
   #instructions {
     background-color: peachpuff;
     color: green; 
+    font-family: Baskerville, "Baskerville Old Face";
     text-align: center;
     height: 200px;
     padding: 10px;
@@ -26,9 +30,10 @@
   }
   
   #randomNumber {
-    background-color: rgb(147, 213, 252);
+    background-color: white;
     height: 150px;
     border: 3px solid rgb(58, 37, 247);
+    
   }
     
 #wins {
@@ -51,28 +56,22 @@ color: blue;
 border: 3px solid rgb(230, 166, 166);
 }
 
-#crystals{
-  margin-left: 25%;
+.col-4 {
+  /* padding: 4px;
+  margin: 4px; */
+}
+.col-3 {
+  padding: 20px;
 }
 
-#ruby {
-  width: 150px;
-  border: 10px solid tan;
+.card {
+  border: 3px solid tan;
 }
 
-#green {
-  width: 150px;
-  border: 10px solid tan;
+
+.card-img-top {
+  height: 120px;
 }
 
-#pink {
-  width: 150px;
-  border: 10px solid tan;
-}
-
-#blue {
-  width: 150px;
-  border: 10px solid tan;
-}
 
 

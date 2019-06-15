@@ -7,13 +7,13 @@
 // var randomDisplay = "";
 
 
-crystals = ['assets/images/ruby.png','assets/images/blue.png', 'assets/images/pink.png', 'assets/images/green.png'];
+// crystals = ['assets/images/ruby.png','assets/images/blue.png', 'assets/images/pink.png', 'assets/images/green.png'];
 
 
   
   
-  
-//     //    Have a random number produce and appear when you click the crystals 
+  // On Click Functions
+//     //    Have a random number produce and appear when you click the 4 buttons 
 //          $(document).ready(function() {
       
 //              $("#crystals").on("click", function() {
@@ -24,6 +24,12 @@ crystals = ['assets/images/ruby.png','assets/images/blue.png', 'assets/images/pi
 //         // dump the random number into html section Result.
 //         $("#random-number").text(random);
 
+// enter function to add the generated click numbers until they equal or are greater than random number
+
+// Enter if then statements for the integers
+// (if greater than random number, losses + 1)
+// if equal to random number, wins +1
+// if the above are true, reset random number
 
 // Below are directions from past crystal activity to aid with pseudo coding
 
@@ -55,10 +61,6 @@ for (var i = 0; i < numberOptions.length; i++) {
   // This data attribute will be set equal to the array value.
   imageCrystal.attr("data-crystalvalue", numberOptions[i]);
 
-
-
-// click event applies to every single crystal on the page. Not just one.
-$(".crystals").on("click", function() {
 
   // Determining the crystal's value requires us to extract the value from the data attribute.
   // Using the $(this) keyword specifies that we should be extracting the crystal value of the clicked crystal.
